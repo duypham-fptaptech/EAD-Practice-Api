@@ -17,7 +17,7 @@ import java.util.UUID;
 @Component
 //@RequiredArgsConstructor
 public class ApplicationSeed implements CommandLineRunner {
-    boolean seed = true;
+    boolean seed = false;
     final ProductRepository productRepository;
     final SaleRepository saleRepository;
     Faker faker;
